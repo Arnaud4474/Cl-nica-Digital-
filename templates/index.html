@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu site</title>
+</head>
+<body>
+
+    <h1>Bem-vindo ao meu site 🚀</h1>
+
+    <form method="POST">
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
+
+{% if nome %}
+    <h2>Olá, {{ nome }}! 👋</h2>
+{% endif %}
